@@ -11,8 +11,6 @@ function App() {
   const [novaMensagem, setNovaMensagem] = useState('');
 
   const enviarMensagem = () => {
-    // Aqui você pode adicionar lógica para manipular a mensagem antes de enviá-la
-    // Por enquanto, simplesmente limpamos o campo de texto
     setNovaMensagem('');
   };
 
